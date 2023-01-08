@@ -1,0 +1,53 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+add_newline = false
+
+[username]
+style_user = "blue bold"
+style_root = "black bold"
+format = "[$user]($style) 🐢 "
+disabled = false
+show_always = true
+
+
+[git_branch]
+symbol = '🌱 '
+truncation_length = 4
+truncation_symbol = ''
+
+# Replace the "❯" symbol in the prompt with "➜"
+#[character] # The name of the module we are configuring is "character"
+#success_symbol = "[➜](bold green)" # The "success_symbol" segment is being set to "➜" with the color "bold green"
+#error_symbol = "[➜](bold red)" # The "success_symbol" segment is being set to "➜" with the color "bold green"
+
+[git_status]
+conflicted = "⚔️ "
+ahead = "🏎️💨×${count} "
+behind = "🐢×${count} "
+diverged = "🔱🏎️💨×${ahead_count} 🐢×${behind_count} "
+untracked = "🛤️×${count} "
+stashed = "📦 "
+modified = "📝×${count} "
+staged = "🗃️×${count} "
+renamed = "📛×${count} "
+deleted = "🗑️×${count} "
+style = "bright-white"
+format = "$all_status$ahead_behind"
+
+[git_commit]
+commit_hash_length = 4
+disabled = false
+tag_symbol = "🔖 "
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
+
+[aws]
+disabled = true
+
+[lua]
+disabled = true
+
+[c]
+disabled = true
+

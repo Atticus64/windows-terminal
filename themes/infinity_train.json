@@ -1,0 +1,23 @@
+{
+  "background": "#000000",
+  "black": "#000000",
+  "blue": "#16ADE9",
+  "brightBlack": "#48614A",
+  "brightBlue": "#2F9DFF",
+  "brightCyan": "#00D6A5",
+  "brightGreen": "#0CDE77",
+  "brightPurple": "#20B492",
+  "brightRed": "#E75E1B",
+  "brightWhite": "#07A15D",
+  "brightYellow": "#F9F1A5",
+  "cursorColor": "#37C4B1",
+  "cyan": "#02DD8B",
+  "foreground": "#FFFFFF",
+  "green": "#1FED3F",
+  "name": "Infinity Train",
+  "purple": "#23984C",
+  "red": "#C54D4F",
+  "selectionBackground": "#FFFFFF",
+  "white": "#80CC97",
+  "yellow": "#C19C00"
+}
